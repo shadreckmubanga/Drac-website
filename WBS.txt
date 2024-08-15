@@ -1,0 +1,27 @@
+TASK                                        Sub-task                                          Work Packages 
+
+Home Page                                   Introduction                                      Logo
+
+                                                                                              Navigation bar(About us,sories(10),contact)
+
+                                                                                              Home page photo
+
+                                                                                              Mission statement, About us, 
+
+
+
+                                            Overview Components                               Health, agric, water san, ICT $ Employ
+
+                                                                                              CTA Buttons to explore each of these 
+
+                                                                                              Stories/events with few maybe 5
+
+
+
+Component Page                              All 4 components                                  services offered, programmes $ initiatives, resources to download
+
+                                            Volunteer opportunities                           Donation infor and contact forms
+
+                                            Contact Us                                        email address, phone, physical address. 
+                                                                                              
+
