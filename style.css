@@ -60,7 +60,7 @@ body{
 }
 
 .bg-image{
-    background-image: url(./images/pic1.jpg);
+    background-image: url(pic1.jpg);
     height: 550px;
     background-size: cover;
     background-position: center;
