@@ -63,9 +63,7 @@ body{
     background-image: url(pic1.jpg);
     height: 550px;
     background-size: cover;
-    background-position: center;
-    opacity: 0.9;
-    
+    background-position: center;    
 }
 
 .highlight{
