@@ -83,7 +83,15 @@ body{
         margin: 10px;
         padding: 10px;
     }
-
+.bg-image{
+    background-image: url(pic1.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    
+    
+}
     
 }
 
