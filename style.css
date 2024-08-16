@@ -83,7 +83,7 @@ body{
     }
     
 .bg-image{
-    background-image: url(pic1.jpg);
+    background-image: url(logo.jpg);
     height: 200px;
     background-size: cover;
     background-position: center;
