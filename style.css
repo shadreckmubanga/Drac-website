@@ -3,6 +3,7 @@ body{
     margin: 0;
     background-color: #f5f5f5;
     font-family: sans-serif;
+    font-size: 10px;
 }
 
 .logo{
@@ -11,60 +12,39 @@ body{
 
 .logo img{
     width: 80px;
-    padding-top: 40;
+    padding-top: 20px;
 }
 
 
 .header{
-    padding-left: 35px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    background-color: white;
-    height: 160px;
+   
+    background-color: #f5f5f5;
+    height: 110px;
    
 }
 
-
-.nav ul li{
-    padding: 10px;
-    display: inline-block;
-    list-style: none;    
-}
-
-.nav ul li:hover{
-  opacity: 0.5;
-}
-
-
-.nav ul{
-    float: right;
-}
-
-
-.nav ul li a{
-    text-decoration: none;
-    color: rgb(173, 173, 20);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 500;
-}
-
-.nav ul li h1{
-    color: #f08080;
-    margin-right: 800px;
-}
 
 .tagline ul li h4{
     color: #f08080;
     text-decoration: none;
 }
 
-.bg-image{
-    background-image: url(pic1.jpg);
-    height: 550px;
-    background-size: cover;
-    background-position: center;    
+h2{
+    color: #f08080;
+    text-align: center;
 }
+
+
+h5{
+    color: rgb(20, 20, 36);
+    text-align: center;
+    margin-bottom: 80px;
+}
+.bg-image img{
+    width: 500px;
+    margin-bottom: 20px;
+}
+
 
 .highlight{
     color: #f08080;
@@ -74,23 +54,94 @@ body{
     text-align: center;
 }
 
+.navigate ul li{
+   
+    padding-bottom: 50px;
+    display: inline-block;
+    list-style: none;  
+}
 
-@media only screen and (max-width: 600px) {
-    body {
-        font-size: 14px;
-        margin: 10px;
-        padding: 10px;
-    }
+.mission-boxes {
     
-.bg-image{
-    background-image: url(logo.jpg);
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     
-    
-}
-    
-}
+  }
+  
+  .mission-box {
+    width: calc(33% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+  }
+
+  
+  .mission-box i {
+    font-size: 3em;
+    color: #f08080;
+    margin-bottom: 10px;
+   
+  }
+
+  .mission-box img{
+    font-size: 3em;
+    color: #f08080;
+    margin-bottom: 10px;
+  }
+  
+  .mission-box h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+
+  .mission{
+    padding: 6px;
+  }
+
+  .health{
+    background-color: rgb(225, 217, 217);
+    padding: 8px;
+  }
+
+  .health img{
+    width: 470px;
+  }
+
+  .agric{
+    background-color: rgb(196, 192, 192);
+    padding: 8px;
+  }
+
+  .agric img{
+    width: 470px;
+  }
+
+  .tech{
+    background-color: rgb(165, 154, 154);
+    padding: 8px;
+  }
+  
+  .tech img{
+    width: 470px;
+  }
+
+
+  .image-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .grid img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+
 
