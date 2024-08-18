@@ -3,7 +3,7 @@ body{
     margin: 0;
     background-color: #f5f5f5;
     font-family: sans-serif;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .logo{
@@ -41,8 +41,13 @@ h5{
     margin-bottom: 80px;
 }
 .bg-image img{
-    width: 500px;
+    width: 100%;
     margin-bottom: 20px;
+}
+
+.bg-image{
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -108,7 +113,7 @@ h5{
   }
 
   .health img{
-    width: 470px;
+    width: 100%;
   }
 
   .agric{
@@ -117,7 +122,7 @@ h5{
   }
 
   .agric img{
-    width: 470px;
+    width: 100%;
   }
 
   .tech{
@@ -126,7 +131,7 @@ h5{
   }
   
   .tech img{
-    width: 470px;
+    width: 100%;
   }
 
 
