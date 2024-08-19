@@ -1,9 +1,9 @@
 body{
-    padding: o;
+    padding: 0;
     margin: 0;
     background-color: #f8f7f7;
     font-family: sans-serif;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .logo{
@@ -162,10 +162,37 @@ h5{
     border-radius: 8px;
   }
 
+
+  .news-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding: 10px;
+  }
+
+  .grid-news img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+  }
+
   .about-us{
     background-color: rgb(219, 200, 200);
     padding: 6px;
   }
+
+  .about-uss{
+    background-color: rgb(186, 185, 185);
+    padding: 6px;
+  }
+
+  .about-uss h3{
+    text-align: center;
+    color: #f08080;
+  }
+
+  
 
   .about-us h3{
     text-align: center;
@@ -186,3 +213,70 @@ h5{
     width: 100%;
  }
 
+ .news{
+    background-color: rgb(219, 200, 200);
+    padding: 6px;
+ }
+
+ .tab{
+    background-color: rgb(219, 200, 200);
+ }
+
+.get-involved{
+    background-color: rgb(168, 168, 168);
+    padding: 6px;
+}
+
+.get-involved h3{
+    color:#da5454;
+    text-align: center;
+    font-size: 24px;
+}
+
+.donation {
+    text-align: center;
+}
+
+.donation-button {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.donation-button:hover {
+    background-color: #218838;
+}
+
+.donation-button:active {
+    background-color: #1e7e34;
+    transform: scale(0.95);
+}
+
+.involved{
+    color:#da5454;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.downloads{
+    background-color: rgb(193, 177, 177);
+    padding: 6px;
+}
+
+.heading-download{
+    color: #da5454;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.ftr1{
+    background-color: grey;
+    padding: 6px;
+}
